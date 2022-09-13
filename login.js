@@ -1,3 +1,4 @@
+//IDENTIFY PRIME NUMBER
 let num=13; 
 let count=0;
 for(i=1;i<=num;i++){
@@ -11,13 +12,15 @@ for(i=1;i<=num;i++){
     console.log("No");
 }
 
-let str=kiran;
+// CHECK PALIDROME OR NOT
+let str="kiran";
 
 let new_str="";
 
-   for(i=N-1;i>=0;i--){
-       new_str=new_str+i;
-   }if(str==new_str){
+   for(let i=str-1;i>=0;i--){
+       new_str=new_str+str[i];
+   }
+   if(str==new_str){
        console.log("Yes");
    }else{
        console.log("No");
